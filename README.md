@@ -16,6 +16,7 @@ ATS Insight is an AI-powered tool that helps job seekers optimize their resumes 
 
 ## 📸 Screenshot
 ![Image](https://github.com/user-attachments/assets/ab19a8dd-3d8a-4c1a-a07c-ff4864e0f45b)
+![Image](https://github.com/user-attachments/assets/43cf2878-70a4-4d8c-9b6e-d285f039213a)
 ![Image](https://github.com/user-attachments/assets/7600b6e7-eb5f-475b-bdc1-9b29bcec6b85)
 ![Image](https://github.com/user-attachments/assets/7207b30c-10c2-4b29-96d1-2cddcaa86418)
 ![Image](https://github.com/user-attachments/assets/60559244-adbb-48f3-9bed-de6577dc6aa8)
