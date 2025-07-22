@@ -1,8 +1,16 @@
-# ATS Insight – AI-Powered Resume Optimization Tool
+# ATS Insight — AI-Powered Resume Optimization Tool
 
-ATS Insight is an AI-powered tool that helps job seekers optimize their resumes by comparing them to specific job descriptions.
+**ATS Insight** is a modern, visually appealing Streamlit web app that leverages **Google Gemini AI** to analyze resumes against job descriptions. It provides instant feedback tailored to boost job seekers' chances of landing interviews.
 
-## 🚀 Features
+✨ Whether you're a job seeker aiming for your dream role or a career coach optimizing resumes, ATS Insight offers **smart, clear, and actionable insights**.
+
+---
+
+## 🧠 What Can It Do?
+
+After uploading a resume and pasting a job description, you can choose from **four intelligent analysis options**:
+
+### 🎯 Features:
 
 - 📄 Upload Resume (PDF)
 - 📋 Paste or Upload Job Description
@@ -14,7 +22,20 @@ ATS Insight is an AI-powered tool that helps job seekers optimize their resumes 
 - 📎 PDF text extraction using Poppler
 - 🐍 Built with Python (Anaconda environment)
 
-## 📸 Screenshot
+| Option | Description |
+|--------|-------------|
+| 🧾 **Tell Me About the Resume** | Professional review highlighting strengths and weaknesses based on the JD |
+| 📊 **Percentage Match** | AI-powered matching percentage, missing keywords, and final thoughts |
+| 📈 **How Can I Improvise My Skills?** | Personalized skill/certification suggestions to improve the resume |
+| 🧩 **What Keywords Are Missing?** | ATS-style scan to detect missing phrases/keywords from the JD |
+
+---
+
+## 🖼️ Interface Preview
+
+> Modern UI built with custom CSS in Streamlit  
+> Upload section + custom buttons with smooth layout
+
 ![Image](https://github.com/user-attachments/assets/ab19a8dd-3d8a-4c1a-a07c-ff4864e0f45b)
 ![Image](https://github.com/user-attachments/assets/43cf2878-70a4-4d8c-9b6e-d285f039213a)
 ![Image](https://github.com/user-attachments/assets/7600b6e7-eb5f-475b-bdc1-9b29bcec6b85)
@@ -29,11 +50,9 @@ ATS Insight is an AI-powered tool that helps job seekers optimize their resumes 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- Python (Streamlit)
-- Google Gemini API (via `google-generativeai`)
-- Poppler for PDF parsing
-- Frontend: Streamlit + HTML/CSS
-
-
+- **Streamlit** – Fast Python web apps
+- **Google Gemini (via `google-generativeai`)** – LLM-based resume analysis
+- **Poppler + `pdf2image`** – Convert PDF to image for Gemini processing
+- **Custom CSS** – Beautiful, dark-themed UI for great user experience
