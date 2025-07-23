@@ -168,16 +168,14 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Main card container for all content, now includes heading and tagline
 st.markdown("<div class='main-card'>", unsafe_allow_html=True)
 st.markdown("<div class='blue-header'>AI-Powered ATS Resume Optimization Tool</div>", unsafe_allow_html=True)
 st.markdown("<div class='tagline'>Instantly analyze, score, and improve your resume for better job matches.</div>", unsafe_allow_html=True)
 
-# Job Description label (dark and bold)
+# Job Description label 
 st.markdown("<label style='color:#0a2540;font-weight:600;font-size:1.08rem; margin-top:2rem; margin-bottom:-2.5rem; display:block;'>Job Description:</label>", unsafe_allow_html=True)
 input_text = st.text_area("", key="input")
 
-# Place the label above the uploader, outside the uploader box
 st.markdown("<label style='color:#0a2540;font-weight:600;font-size:1.08rem; margin-top:1.2rem; display:block;'>Upload your resume (PDF):</label>", unsafe_allow_html=True)
 uploaded_file = st.file_uploader("", type=["pdf"])
 
@@ -256,14 +254,13 @@ st.markdown(
 button_labels = ["Tell Me About the Resume", "Percentage Match", "How Can I Improvise My Skills?", "What Keywords Are Missing?"]
 button_keys = ["about", "match", "improve", "keywords"]
 
-button_width = "250px"  # Decreased width for smaller buttons
+button_width = "250px"  
 
 button_clicked = None
 for label, key in zip(button_labels, button_keys):
     if st.button(label, key=key):
         button_clicked = key
 
-# CSS to make all buttons the same (smaller) width, stacked vertically, left-aligned, and with less spacing
 st.markdown(
     f"""
     <style>
