@@ -56,3 +56,15 @@ After uploading a resume and pasting a job description, you can choose from **fo
 - **Google Gemini (via `google-generativeai`)** – LLM-based resume analysis
 - **Poppler + `pdf2image`** – Convert PDF to image for Gemini processing
 - **Custom CSS** – Beautiful, dark-themed UI for great user experience
+
+---
+
+## 💻 Getting Started (Local Setup)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ABasit92/ATS-Insight.git
+   cd ATS-Insight
+
+
+
